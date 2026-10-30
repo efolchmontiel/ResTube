@@ -1,0 +1,4 @@
+# Review notifications: the repository owner is the code owner of everything.
+# Review requirement count is 0 (owner-only updates are enforced separately by
+# rulesets, and GitHub forbids author self-approval).
+* @efolchmontiel

@@ -1,0 +1,11 @@
+name: Pregunta
+description: Hacer una pregunta sobre el uso o la configuración de ResTube.
+labels: ["status:triage", "type:question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta
+      description: Formula tu pregunta con el contexto necesario para responderla.
+    validations:
+      required: true

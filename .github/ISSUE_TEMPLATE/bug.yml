@@ -1,0 +1,25 @@
+name: Reporte de error
+description: Informar un comportamiento incorrecto o inesperado de ResTube.
+labels: ["status:triage", "type:bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué ocurrió?
+      description: Describe el problema y los pasos exactos para reproducirlo.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+      description: Qué esperabas que sucediera en lugar del problema.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      description: Sistema operativo, navegador, versión de Node/pnpm y cómo obtuviste el proyecto.
+    validations:
+      required: true
