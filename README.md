@@ -2,6 +2,12 @@
 
 ResTube resume dos clases de fuente con el modelo conectado que selecciones: **videos públicos de YouTube** (subtítulos accesibles) y **archivos de video locales** (transcripción local con faster-whisper Base). Muestra título, autor, duración e idioma y cuatro secciones de resumen. No hay modelo predeterminado ni contenido de respaldo inventado.
 
+## Vista general
+
+![ResTube Studio mostrando un resumen real con puntos clave paginados](docs/restube-studio.png)
+
+Captura real de la aplicación: fuente de YouTube, modelo elegido del catálogo, puntos clave navegables de a uno y el texto completo con altura natural. La miniatura del video y el identificador del enlace se ocultaron a propósito para no exponer a la persona del video.
+
 ## Instalación
 
 ```bash
