@@ -1,0 +1,12 @@
+# Pinned runtime for the project-owned caption environment (.tools/captions/python).
+# Installed only by scripts/setup-captions.mjs with uv; never global.
+# Pins mirror the authorized isolated experiment (.tools/tubescrape-probe-v050/venv):
+# tubescrape 0.5.0 with its exact installed dependency tree, no extras and no Whisper.
+tubescrape==0.5.0
+httpx==0.28.1
+httpcore==1.0.9
+h11==0.16.0
+anyio==4.15.1
+certifi==2026.10.23
+idna==3.20
+typing-extensions==4.16.0

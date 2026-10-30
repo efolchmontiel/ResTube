@@ -1,0 +1,41 @@
+/* Tokens de diseño — fuente: design/system.md (paleta, tipografía y formas del sistema). */
+
+:root {
+  /* Base y superficies */
+  --st-base: #1a1218;
+  --herdr-panel-bg: #0e0a0d;
+  --herdr-surface-dim: #20161e;
+  --herdr-surface0: #241822;
+  --herdr-surface1: #342230;
+  --st-overlay0: #342230;
+  --st-overlay1: #5f3e57;
+
+  /* Acentos */
+  --herdr-accent: #f095c8;
+  --gentlepi-rose: #ff76c3;
+  --herdr-mauve: #ffb1dd;
+
+  /* Semánticos */
+  --herdr-green: #b4e7c7;
+  --herdr-blue: #a9c7ee;
+  --herdr-yellow: #e0c27a;
+  --herdr-red: #ff718f;
+  --herdr-peach: #f2b86d;
+
+  /* Texto */
+  --herdr-text: #f6eff3;
+  --herdr-subtext0: #a78e9b;
+  --st-subtext0: #76616b;
+
+  /* Tipografía (solo stacks del sistema, según system.md) */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Segoe UI Mono', 'JetBrains Mono', Menlo,
+    Consolas, monospace;
+
+  /* Formas */
+  --shape-small: 8px;
+  --shape-medium: 12px;
+  --shape-large: 16px;
+  --shape-full: 999px;
+}

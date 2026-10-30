@@ -1,0 +1,7 @@
+# Pinned runtime for the project-owned transcription environment (.tools/python).
+# Installed only by scripts/setup-transcription.mjs with uv; never global.
+faster-whisper==1.2.1
+huggingface-hub==2.4.0
+# faster-whisper 1.2.1 calls av.open(..., metadata_errors='ignore'); that keyword was
+# removed in av 19 (observed TypeError at runtime). 15.1.0 ships cp312 manylinux wheels.
+av==15.1.0

@@ -1,0 +1,33 @@
+node_modules/
+.tools/
+dist/
+coverage/
+*.tsbuildinfo
+.codegraph/
+.atl/
+.env
+.env.*
+.test-*/
+
+# Local planning, design drafts, agent state and evidence are not project sources.
+odd/
+design/
+.pi/
+.agents/
+.claude/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Credentials and private key material must never enter the public repository.
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+.git-credentials
+auth.json
+mcp-auth.json
